@@ -1,5 +1,5 @@
 {% set name = "genutil" %}
-{% set version = "2.12" %}
+{% set version = "3.0" %}
 
 package:
     name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
     url: https://github.com/UV-CDAT/genutil/archive/v{{ version }}.tar.gz
-    sha256: bec6bf52ab161cc8775368e7ffb14f9d6adbae3b8073a44e2592de92b303c159
+    sha256: 1df22b07375f26fd6f687d5c0df1cbfeda8cc85b775720def7e69c06f7372b56
     
 
 build:
